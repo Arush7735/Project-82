@@ -2,7 +2,6 @@
 <head>  
 <link rel="stylesheet" type="text/css" href="style.css">
 
-
     <script type="text/javascript">
 </script>
 
@@ -12,22 +11,23 @@
 <div align="center">
 <h1>Paint</h1>
 
-    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <canvas id="myCanvas" width="800" height="400"></canvas>
         <br><br >
-        <span>Color - </span>
-<input placeholder="Enter Color" type="text" id="color">
-<br><br>
-<span>Width of line</span>
-<input type="text"  placeholder="Enter width of line" id="width_of_line">
-<br><br>
-<span>Radius</span>
-<input type="text" placeholder="Enter radius" id="radius">
-<br><br>
-<button onclick="clearArea()">Clear Area</button>
 
 <!--Additional activity -->
+        <span>Radius - </span>  
+        <input type="text" id="radius" value=20>
+
+        <span>Color - </span>  
+        <input type="text" id="color" value="Red">
+        
+        <span>Width Of the line  - </span>  
+        <input type="text" id="width_of_line" value="2">
+        <br><br>
+        <button onclick="clearArea();">Clear Area</button>
 
     </div>
 <script src="main.js"></script>
 </body>
+  
 </html>
